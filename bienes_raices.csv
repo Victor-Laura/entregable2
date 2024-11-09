@@ -1,0 +1,101 @@
+precio,superficie_total,num_habitaciones,num_banos,ubicacion,estado,piscina,jardin,tipo_propiedad,antiguedad,garaje,num_pisos,acceso_transporte,zona_verde
+171958,319,2,4,rural,nuevo,0,0,casa,33,0,1,si,1
+721155,400,9,4,rural,nuevo,0,0,casa,2,0,2,si,1
+181932,353,5,2,centro,nuevo,1,1,departamento,49,1,2,si,0
+415838,320,6,4,rural,usado,1,0,departamento,11,0,3,no,0
+309178,264,4,1,centro,usado,0,1,duplex,0,0,2,no,0
+694167,301,7,4,centro,nuevo,0,0,duplex,43,1,3,no,1
+160268,239,9,4,rural,requiere reparaciones,0,1,casa,4,1,2,no,0
+782180,345,7,3,centro,usado,0,1,duplex,29,0,2,si,1
+104886,262,1,1,rural,usado,1,0,departamento,29,1,2,si,1
+187337,257,1,4,suburbio,usado,1,1,departamento,16,0,3,no,1
+571430,286,9,4,centro,nuevo,0,0,casa,47,0,3,si,1
+137498,387,9,2,suburbio,nuevo,0,1,departamento,46,0,1,no,1
+949159,416,4,4,rural,nuevo,1,1,departamento,22,1,3,no,1
+962756,102,9,4,suburbio,nuevo,1,0,departamento,14,0,3,no,0
+225203,329,3,2,suburbio,nuevo,0,0,departamento,36,0,3,si,0
+241335,459,7,3,rural,requiere reparaciones,0,0,casa,20,0,3,no,1
+328167,266,6,4,suburbio,requiere reparaciones,0,1,casa,13,1,1,no,1
+91090,301,8,2,suburbio,nuevo,1,0,duplex,1,1,3,no,0
+379365,237,9,1,rural,usado,1,1,departamento,10,1,2,si,1
+114820,429,5,3,suburbio,nuevo,1,1,duplex,38,1,2,si,1
+837201,90,1,1,rural,requiere reparaciones,0,0,casa,37,1,3,no,0
+371879,206,3,1,suburbio,requiere reparaciones,0,0,casa,33,0,3,si,1
+768315,64,8,2,rural,usado,1,1,casa,37,1,2,si,1
+377069,350,6,4,rural,requiere reparaciones,1,1,casa,49,1,2,si,1
+826997,114,8,2,suburbio,nuevo,0,0,casa,33,1,1,si,0
+249041,394,9,2,suburbio,usado,1,0,casa,17,0,2,si,0
+841743,376,4,2,suburbio,nuevo,1,0,casa,29,1,2,si,0
+153355,58,1,2,centro,nuevo,0,0,departamento,14,1,3,si,1
+285796,393,1,3,centro,usado,1,0,duplex,26,0,2,si,1
+264176,178,4,4,centro,nuevo,0,1,casa,33,1,1,si,0
+234779,185,7,1,rural,requiere reparaciones,0,1,departamento,37,0,2,si,1
+397449,112,2,1,suburbio,nuevo,0,1,departamento,32,0,3,no,1
+471909,188,3,4,rural,usado,0,1,duplex,23,0,3,no,1
+308795,130,1,1,centro,usado,0,0,casa,14,0,2,si,1
+536232,441,5,4,suburbio,usado,0,0,duplex,29,0,3,no,1
+967040,212,1,1,rural,nuevo,0,0,casa,41,1,1,no,0
+550186,468,8,2,suburbio,usado,1,1,departamento,16,0,1,si,1
+206730,338,1,1,rural,usado,0,1,departamento,4,0,2,si,0
+920910,428,1,4,suburbio,nuevo,0,0,departamento,28,1,2,si,1
+434681,310,2,4,centro,requiere reparaciones,1,0,departamento,3,0,2,no,0
+199503,280,2,4,centro,nuevo,1,1,duplex,9,1,3,no,1
+704811,90,6,4,suburbio,usado,1,1,casa,16,1,1,si,0
+577035,77,7,4,rural,usado,0,0,casa,9,1,1,si,1
+698143,184,5,3,centro,nuevo,1,0,duplex,16,0,3,si,0
+502366,250,1,3,centro,requiere reparaciones,0,1,casa,19,0,1,no,1
+115725,377,1,1,centro,usado,0,0,departamento,23,0,2,no,0
+179981,317,3,4,suburbio,usado,0,0,casa,4,1,2,no,1
+134654,467,2,1,suburbio,usado,0,0,departamento,33,0,2,no,0
+955778,82,5,4,rural,nuevo,1,1,duplex,5,0,1,si,0
+641723,97,6,4,rural,usado,1,1,casa,1,0,2,si,1
+369030,456,7,3,rural,requiere reparaciones,0,1,duplex,12,1,3,si,1
+378947,111,4,3,suburbio,usado,0,1,casa,42,1,3,si,0
+605839,265,7,2,suburbio,usado,0,1,departamento,42,0,1,no,1
+952648,342,8,3,rural,requiere reparaciones,1,1,duplex,47,0,3,no,0
+323538,148,1,2,rural,usado,0,1,casa,10,0,3,si,0
+381236,221,6,2,suburbio,nuevo,0,0,departamento,46,0,1,si,0
+578178,409,8,2,rural,nuevo,1,0,duplex,22,1,2,no,1
+615894,263,5,2,centro,nuevo,1,0,duplex,15,1,2,si,0
+539492,84,4,2,suburbio,requiere reparaciones,0,0,casa,30,1,2,no,0
+306840,498,2,1,rural,usado,1,0,casa,10,1,1,si,1
+523254,276,6,3,suburbio,nuevo,1,0,casa,15,0,3,si,1
+399457,150,6,2,centro,requiere reparaciones,0,0,departamento,7,0,2,si,1
+715987,480,1,4,suburbio,usado,1,1,casa,3,0,2,si,1
+320936,180,9,3,suburbio,requiere reparaciones,0,1,duplex,39,1,1,si,0
+289931,306,6,3,suburbio,nuevo,1,0,duplex,3,0,2,si,0
+289629,54,3,2,suburbio,nuevo,0,0,casa,24,1,1,si,0
+255041,267,4,1,centro,nuevo,0,1,casa,2,1,3,no,0
+748361,304,4,2,suburbio,requiere reparaciones,0,0,duplex,31,0,1,no,1
+781912,447,3,1,suburbio,requiere reparaciones,1,0,departamento,2,0,1,no,0
+467113,408,3,4,rural,nuevo,0,1,casa,26,0,1,no,0
+118148,332,3,3,suburbio,requiere reparaciones,1,0,casa,28,1,1,no,1
+827089,442,4,4,rural,nuevo,0,1,duplex,31,0,3,si,0
+698531,256,7,1,centro,nuevo,0,0,casa,49,1,3,si,0
+301995,64,4,1,centro,usado,1,1,departamento,18,0,2,no,0
+956606,395,9,4,centro,requiere reparaciones,0,1,duplex,20,1,3,si,0
+728843,91,1,1,centro,nuevo,0,1,casa,4,1,3,no,0
+960790,429,8,4,rural,nuevo,1,0,duplex,17,0,2,no,0
+622843,228,7,3,suburbio,requiere reparaciones,0,1,casa,27,1,3,si,1
+306508,112,2,4,centro,usado,0,0,casa,41,1,1,si,1
+853591,401,8,3,suburbio,usado,0,0,casa,21,0,1,si,0
+946942,280,1,4,rural,nuevo,0,0,departamento,20,1,2,no,0
+156530,290,9,1,rural,requiere reparaciones,1,0,departamento,5,0,2,si,1
+654365,101,9,4,rural,usado,1,1,duplex,0,1,2,no,0
+872352,145,2,1,centro,requiere reparaciones,0,1,casa,4,0,1,no,0
+510337,437,7,4,suburbio,requiere reparaciones,1,0,casa,40,0,3,no,0
+774839,271,3,4,suburbio,nuevo,0,0,departamento,11,1,1,si,1
+855889,456,7,2,suburbio,usado,1,1,casa,25,1,2,si,0
+509773,280,9,1,rural,nuevo,0,0,departamento,45,1,3,no,1
+258261,286,4,2,centro,usado,0,1,casa,33,1,3,si,0
+814469,192,1,1,rural,usado,0,0,duplex,48,1,1,si,1
+391097,220,2,2,rural,usado,0,0,casa,13,0,2,si,1
+365139,78,1,3,suburbio,usado,0,1,casa,25,1,1,no,0
+221829,85,5,4,rural,usado,0,0,departamento,44,0,3,no,1
+321836,62,5,1,suburbio,requiere reparaciones,1,1,casa,26,0,1,si,0
+488974,209,7,1,centro,nuevo,0,0,casa,8,1,1,no,1
+252283,376,9,4,suburbio,requiere reparaciones,1,0,departamento,25,0,2,si,0
+246769,236,9,1,centro,usado,0,0,duplex,46,0,2,si,0
+611353,292,3,1,suburbio,nuevo,1,1,duplex,21,0,3,si,1
+273165,135,3,2,rural,usado,1,0,departamento,46,0,1,si,0
+673587,333,3,1,rural,nuevo,1,0,departamento,29,1,1,no,0

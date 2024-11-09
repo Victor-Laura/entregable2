@@ -1,0 +1,75 @@
+# Cargar las bibliotecas necesarias
+install.packages("tidyverse")
+install.packages("caret")
+install.packages("randomForest")
+install.packages("ggplot2")
+install.packages("corrplot")
+install.packages("rpart")
+install.packages("dplyr")
+library(rpart)
+library(tidyverse)
+library(caret)
+library(randomForest)
+library(ggplot2)
+library(corrplot)
+library(dplyr)
+
+# 1. Adquisición de Datos
+# Asumimos que los datos están en un archivo CSV llamado 'datos_inmobiliarios.csv'
+datos <- read.csv("D:/bienes_raices.csv")
+str(datos)
+# 2. Preprocesamiento de Datos
+# Eliminar filas con valores faltantes
+datos_limpios <- datos %>% 
+  drop_na()
+
+# Eliminar duplicados
+datos_limpios <- datos_limpios %>% 
+  distinct()
+
+# 3. Análisis de Datos Exploratorio (EDA)
+# Resumen estadístico
+summary(datos_limpios)
+
+
+# Matriz de correlación
+correlacion <- cor(datos_limpios %>% select_if(is.numeric))
+corrplot(correlacion, method = "circle")
+
+# 4. Ingeniería de Características
+# Ejemplo: Crear una nueva característica 'precio_por_metro_cuadrado'
+datos_limpios <- datos_limpios %>%
+  mutate(precio_por_metro_cuadrado = precio / superficie_total)
+
+# Codificación de variables categóricas
+datos_limpios <- datos_limpios %>%
+  mutate_if(is.character, as.factor)
+
+# Crear una variable categórica 'precio_categoria' basada en la mediana
+umbral <- median(datos_limpios$precio)
+datos_limpios$precio_categoria <- ifelse(datos_limpios$precio <= umbral, "bajo", "alto")
+datos_limpios$precio_categoria <- as.factor(datos_limpios$precio_categoria)
+
+
+
+# 5. División de Datos
+set.seed(123)  # Para reproducibilidad
+indices_entrenamiento <- createDataPartition(datos_limpios$precio, p = 0.8, list = FALSE)
+datos_entrenamiento <- datos_limpios[indices_entrenamiento, ]
+datos_prueba <- datos_limpios[-indices_entrenamiento, ]
+
+
+
+# Ejemplo de modelo: Random Forest
+modelo_rf <- randomForest(precio_categoria ~ . - precio, data = datos_entrenamiento)
+predicciones_rf <- predict(modelo_rf, datos_prueba)
+confusion_rf <- confusionMatrix(predicciones_rf, datos_prueba$precio_categoria)
+print(confusion_rf)
+
+
+# Modelo Árbol de Decisión
+modelo_arbol <- rpart(precio_categoria ~ . - precio, data = datos_entrenamiento, method = "class")
+predicciones_arbol <- predict(modelo_arbol, datos_prueba, type = "class")
+confusion_arbol <- confusionMatrix(predicciones_arbol, datos_prueba$precio_categoria)
+print(confusion_arbol)
+
